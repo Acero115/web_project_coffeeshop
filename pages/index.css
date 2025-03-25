@@ -30,6 +30,7 @@
     display: flex;
     column-gap: 20px;
     list-style-type: none;
+    margin-top: 5px;
 }
 
 .nav__link {
@@ -103,21 +104,12 @@
     margin-top: auto;
     padding-bottom: 40px;
     padding-left: 80px;
-    padding-right: 80px;
+    margin-right: 80px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     box-sizing: border-box;
     z-index: 1;
-}
-
-.opening_hours {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #838383;
 }
 
 .header__paragraph {
@@ -127,6 +119,8 @@
     font-size: 16px;
     line-height: 20px;
     color: #838383;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .recipes {
@@ -146,6 +140,7 @@
     font-size: 44px;
     line-height: 52px;
     color: #ffffff;
+    margin-top: auto;
 }
 
 .recipes__subtitle {
