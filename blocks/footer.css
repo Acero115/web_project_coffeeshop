@@ -1,11 +1,18 @@
 .footer {
     background-color: #0a2850;
-    padding: 60px 80px 0 80px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
 }
 
 .footer__content {
     display: flex;
     justify-content: space-between;
+    margin: 60px 80px 0;
+    z-index: 1;
 }
 
 .footer__social {
@@ -76,7 +83,9 @@
     width: 340px;
     height: 340px;
     background-color: #2f80ed;
-    border-radius: 50%;
+    border-radius: 100%;
     position: absolute;
-    z-index: 1;
+    top: -128px;
+    left: -44px;
+    z-index: 0;
 }
